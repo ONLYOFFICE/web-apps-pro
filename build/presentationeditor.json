@@ -18,6 +18,10 @@
                     "findNestedDependencies": true,
                     "preserveLicenseComments": false,
                     "optimizeAllPluginResources": true,
+                    "optimize": "uglify",
+                    "uglify": {
+                        "mangle": false
+                    },
                     "paths": {
                         "jquery": "../vendor/jquery/jquery",
                         "underscore": "../vendor/underscore/underscore",
@@ -228,6 +232,10 @@
                     "findNestedDependencies": true,
                     "preserveLicenseComments": false,
                     "optimizeAllPluginResources": true,
+                    "optimize": "uglify",
+                    "uglify": {
+                        "mangle": false
+                    },
                     "paths": {
                         "jquery": "../vendor/jquery/jquery",
                         "underscore": "../vendor/underscore/underscore",
