@@ -224,6 +224,7 @@ define([
                     variation.set_InsideMode(itemVar.get('isInsideMode'));
                     variation.set_InitDataType(itemVar.get('initDataType'));
                     variation.set_InitData(itemVar.get('initData'));
+                    variation.set_isNeedNumbering(itemVar.get('isNeedNumbering'));
                     variation.set_UpdateOleOnResize(itemVar.get('isUpdateOleOnResize'));
                     variation.set_Buttons(itemVar.get('buttons'));
                     variation.set_Size(itemVar.get('size'));
